@@ -1,0 +1,185 @@
+
+
+/* Header section */
+
+.header_and_section1{
+    background-color: #1F2937;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20%;
+}
+
+.header h1{
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9Faf8;
+    
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+}
+
+.header a{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/* Section 1 */
+
+.section-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+    max-width: 1000px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section-1 text{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 200px;
+
+}
+
+.text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9Faf8;
+}
+
+.text p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section-1 img{
+    height: 500px;
+    width: 500px;
+    padding-left: 50px;
+}
+
+.button{
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    font-weight: 800;
+}
+
+/* Section 2 */
+
+.section-2 h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight:bolder;
+
+}
+
+.sample-images{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20%;
+}
+
+.section-2 img{
+    height: 200px;
+    width: 200px;
+    border: solid #3882f6;
+    border-radius: 10px;
+}
+
+.section-2{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+/* Section 3 */
+
+.section-3{
+    background-color: #E5e7eb;
+    padding: 20px;
+}
+
+.section-3 p{
+    font-size: 36px;
+    text-align: center;
+    width: 80%;
+    margin: 5%;
+}
+
+.section-3 h2{
+    text-align: right;
+}
+
+/* Section 4 */
+
+.box{
+
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 20%;
+
+}
+
+.button-2{
+    background-color: #3882f6;
+    border: solid 2px white;
+    border-radius: 10px;
+    color: #E5e7eb;
+    margin: 0 auto;
+    height: 50%;
+    padding: 10px;
+    margin-top: 35px;
+}
+
+.section-4 h3{
+    color: white;
+    font-size: 25px;
+}
+
+.section-4 p{
+    color: white;
+    font-size: 10px;
+}
+
+.primary{
+    padding: 10px;
+}
+
+.section-4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+.footer{
+    background-color:#1f2937;
+    text-align: center;
+    color: white;
+    padding:10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 0;
+
+
+}
+
